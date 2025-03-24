@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tool B</title>
+    <style>
+        body { 
+            padding: 20px; 
+            font-family: Arial, sans-serif;
+            padding-bottom: 120px;
+            position: relative;
+            min-height: 100vh;
+        }
+        h2 { color: red; }
+        button { margin: 10px 0; padding: 8px 16px; width: 100%; }
+        #analysisSummary { margin-top: 20px; }
+        .display-options { margin: 20px 0; }
+        .display-options label { display: block; margin: 5px 0; }
+        #youtubeControls {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #f8f9fa;
+            border-top: 1px solid #dee2e6;
+            padding: 10px 20px;
+            margin: 0;
+            font-size: 0.9em;
+            opacity: 0.85;
+            transition: opacity 0.3s;
+        }
+        #youtubeControls:hover {
+            opacity: 1;
+        }
+        #youtubeControls h3 {
+            color: #6c757d;
+            font-size: 0.95em;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h2>Tool B</h2>
+    <p>Video Title: <span id="videoTitle">Loading...</span></p>
+
+    <button id="llamaButton">Analyze</button>
+
+    <div id="analysisSummary">
+        <h3>Analysis Summary</h3>
+        <p>Total Comments: <span id="totalComments">0</span></p>
+        <p>Positive: <span id="positiveCount">0</span></p>
+        <p>Neutral: <span id="neutralCount">0</span></p>
+        <p>Negative: <span id="negativeCount">0</span></p>
+    </div>
+
+
+    <div id="filterControls" style="margin: 20px 0;">
+        <h3>Filter Comments</h3>
+        <label style="display: block; margin: 5px 0;">
+            <input type="radio" name="sentimentFilter" value="all" checked> Show All
+        </label>
+        <label style="display: block; margin: 5px 0;">
+            <input type="radio" name="sentimentFilter" value="positive"> Show Positive Only
+        </label>
+        <label style="display: block; margin: 5px 0;">
+            <input type="radio" name="sentimentFilter" value="neutral"> Show Neutral Only
+        </label>
+        <label style="display: block; margin: 5px 0;">
+            <input type="radio" name="sentimentFilter" value="negative"> Show Negative Only
+        </label>
+    </div>
+
+    <div style="margin: 20px 0;">
+        <label style="display: block; margin: 5px 0;">
+            <input type="checkbox" id="includeTranscript"> Include Video Transcript
+        </label>
+    </div>
+
+    <details id="transcriptContainer" style="margin: 20px 0; display: none;">
+        <summary>Video Transcript</summary>
+        <div id="transcriptContent" style="margin-top: 10px; white-space: pre-line; font-size: 14px;"></div>
+    </details>
+
+    <div id="spinner" style="display: none;">Analyzing...</div>
+
+    <div id="youtubeControls">
+        <h3>YouTube Controls</h3>
+        <label style="display: block; margin: 5px 0;">
+            <input type="checkbox" id="cinemaModeToggle"> Enable Cinema Mode
+        </label>
+        <label style="display: block; margin: 5px 0;">
+            <input type="checkbox" id="hideSuggestedToggle"> Hide Suggested Videos
+        </label>
+    </div>
+
+    <script src="sidepanel.js"></script>
+</body>
+</html>
