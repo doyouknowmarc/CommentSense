@@ -1,0 +1,542 @@
+F1 Score Analysis
+================================================================================
+
+Model: deepseek-r1:1.5b
+----------------------------------------
+
+Positive:
+  Precision: 0.000
+  Recall: 0.000
+  F1: 0.000
+  Support: 17
+
+Neutral:
+  Precision: 0.150
+  Recall: 1.000
+  F1: 0.261
+  Support: 3
+
+Negative:
+  Precision: 0.000
+  Recall: 0.000
+  F1: 0.000
+  Support: 0
+
+Macro Averages:
+  Precision: 0.050
+  Recall: 0.333
+  F1: 0.087
+================================================================================
+
+Model: deepseek-r1:7b
+----------------------------------------
+
+Positive:
+  Precision: 1.000
+  Recall: 0.471
+  F1: 0.640
+  Support: 17
+
+Neutral:
+  Precision: 0.000
+  Recall: 0.000
+  F1: 0.000
+  Support: 3
+
+Negative:
+  Precision: 0.000
+  Recall: 0.000
+  F1: 0.000
+  Support: 0
+
+Macro Averages:
+  Precision: 0.333
+  Recall: 0.157
+  F1: 0.213
+================================================================================
+
+Model: deepseek-r1:8b
+----------------------------------------
+
+Positive:
+  Precision: 0.850
+  Recall: 1.000
+  F1: 0.919
+  Support: 17
+
+Neutral:
+  Precision: 0.000
+  Recall: 0.000
+  F1: 0.000
+  Support: 3
+
+Negative:
+  Precision: 0.000
+  Recall: 0.000
+  F1: 0.000
+  Support: 0
+
+Macro Averages:
+  Precision: 0.283
+  Recall: 0.333
+  F1: 0.306
+================================================================================
+
+Model: DistilBERT - sst2
+----------------------------------------
+
+Positive:
+  Precision: 0.929
+  Recall: 0.765
+  F1: 0.839
+  Support: 17
+
+Neutral:
+  Precision: 0.000
+  Recall: 0.000
+  F1: 0.000
+  Support: 3
+
+Negative:
+  Precision: 0.000
+  Recall: 0.000
+  F1: 0.000
+  Support: 0
+
+Macro Averages:
+  Precision: 0.310
+  Recall: 0.255
+  F1: 0.280
+================================================================================
+
+Model: gemma2:2b
+----------------------------------------
+
+Positive:
+  Precision: 0.929
+  Recall: 0.765
+  F1: 0.839
+  Support: 17
+
+Neutral:
+  Precision: 0.000
+  Recall: 0.000
+  F1: 0.000
+  Support: 3
+
+Negative:
+  Precision: 0.000
+  Recall: 0.000
+  F1: 0.000
+  Support: 0
+
+Macro Averages:
+  Precision: 0.310
+  Recall: 0.255
+  F1: 0.280
+================================================================================
+
+Model: gemma2:9b
+----------------------------------------
+
+Positive:
+  Precision: 0.938
+  Recall: 0.882
+  F1: 0.909
+  Support: 17
+
+Neutral:
+  Precision: 0.000
+  Recall: 0.000
+  F1: 0.000
+  Support: 3
+
+Negative:
+  Precision: 0.000
+  Recall: 0.000
+  F1: 0.000
+  Support: 0
+
+Macro Averages:
+  Precision: 0.312
+  Recall: 0.294
+  F1: 0.303
+================================================================================
+
+Model: internlm2:7b
+----------------------------------------
+
+Positive:
+  Precision: 0.929
+  Recall: 0.765
+  F1: 0.839
+  Support: 17
+
+Neutral:
+  Precision: 0.333
+  Recall: 0.333
+  F1: 0.333
+  Support: 3
+
+Negative:
+  Precision: 0.000
+  Recall: 0.000
+  F1: 0.000
+  Support: 0
+
+Macro Averages:
+  Precision: 0.421
+  Recall: 0.366
+  F1: 0.391
+================================================================================
+
+Model: internlm2:1.8b
+----------------------------------------
+
+Positive:
+  Precision: 1.000
+  Recall: 0.294
+  F1: 0.455
+  Support: 17
+
+Neutral:
+  Precision: 0.000
+  Recall: 0.000
+  F1: 0.000
+  Support: 3
+
+Negative:
+  Precision: 0.000
+  Recall: 0.000
+  F1: 0.000
+  Support: 0
+
+Macro Averages:
+  Precision: 0.333
+  Recall: 0.098
+  F1: 0.152
+================================================================================
+
+Model: llama3.2:1b
+----------------------------------------
+
+Positive:
+  Precision: 1.000
+  Recall: 0.294
+  F1: 0.455
+  Support: 17
+
+Neutral:
+  Precision: 0.000
+  Recall: 0.000
+  F1: 0.000
+  Support: 3
+
+Negative:
+  Precision: 0.000
+  Recall: 0.000
+  F1: 0.000
+  Support: 0
+
+Macro Averages:
+  Precision: 0.333
+  Recall: 0.098
+  F1: 0.152
+================================================================================
+
+Model: llama3.2:3b
+----------------------------------------
+
+Positive:
+  Precision: 0.938
+  Recall: 0.882
+  F1: 0.909
+  Support: 17
+
+Neutral:
+  Precision: 0.000
+  Recall: 0.000
+  F1: 0.000
+  Support: 3
+
+Negative:
+  Precision: 0.000
+  Recall: 0.000
+  F1: 0.000
+  Support: 0
+
+Macro Averages:
+  Precision: 0.312
+  Recall: 0.294
+  F1: 0.303
+================================================================================
+
+Model: mistral-small:22b
+----------------------------------------
+
+Positive:
+  Precision: 1.000
+  Recall: 0.824
+  F1: 0.903
+  Support: 17
+
+Neutral:
+  Precision: 0.000
+  Recall: 0.000
+  F1: 0.000
+  Support: 3
+
+Negative:
+  Precision: 0.000
+  Recall: 0.000
+  F1: 0.000
+  Support: 0
+
+Macro Averages:
+  Precision: 0.333
+  Recall: 0.275
+  F1: 0.301
+================================================================================
+
+Model: phi3.5
+----------------------------------------
+
+Positive:
+  Precision: 1.000
+  Recall: 0.941
+  F1: 0.970
+  Support: 17
+
+Neutral:
+  Precision: 1.000
+  Recall: 0.333
+  F1: 0.500
+  Support: 3
+
+Negative:
+  Precision: 0.000
+  Recall: 0.000
+  F1: 0.000
+  Support: 0
+
+Macro Averages:
+  Precision: 0.667
+  Recall: 0.425
+  F1: 0.490
+================================================================================
+
+Model: phi4
+----------------------------------------
+
+Positive:
+  Precision: 0.938
+  Recall: 0.882
+  F1: 0.909
+  Support: 17
+
+Neutral:
+  Precision: 0.333
+  Recall: 0.333
+  F1: 0.333
+  Support: 3
+
+Negative:
+  Precision: 0.000
+  Recall: 0.000
+  F1: 0.000
+  Support: 0
+
+Macro Averages:
+  Precision: 0.424
+  Recall: 0.405
+  F1: 0.414
+================================================================================
+
+Model: qwen2.5:0.5b
+----------------------------------------
+
+Positive:
+  Precision: 1.000
+  Recall: 0.882
+  F1: 0.938
+  Support: 17
+
+Neutral:
+  Precision: 0.000
+  Recall: 0.000
+  F1: 0.000
+  Support: 3
+
+Negative:
+  Precision: 0.000
+  Recall: 0.000
+  F1: 0.000
+  Support: 0
+
+Macro Averages:
+  Precision: 0.333
+  Recall: 0.294
+  F1: 0.312
+================================================================================
+
+Model: qwen2.5:1.5b
+----------------------------------------
+
+Positive:
+  Precision: 1.000
+  Recall: 0.588
+  F1: 0.741
+  Support: 17
+
+Neutral:
+  Precision: 0.250
+  Recall: 0.333
+  F1: 0.286
+  Support: 3
+
+Negative:
+  Precision: 0.000
+  Recall: 0.000
+  F1: 0.000
+  Support: 0
+
+Macro Averages:
+  Precision: 0.417
+  Recall: 0.307
+  F1: 0.342
+================================================================================
+
+Model: qwen2.5:3b
+----------------------------------------
+
+Positive:
+  Precision: 1.000
+  Recall: 0.647
+  F1: 0.786
+  Support: 17
+
+Neutral:
+  Precision: 0.400
+  Recall: 0.667
+  F1: 0.500
+  Support: 3
+
+Negative:
+  Precision: 0.000
+  Recall: 0.000
+  F1: 0.000
+  Support: 0
+
+Macro Averages:
+  Precision: 0.467
+  Recall: 0.438
+  F1: 0.429
+================================================================================
+
+Model: qwen2.5:7b
+----------------------------------------
+
+Positive:
+  Precision: 0.923
+  Recall: 0.706
+  F1: 0.800
+  Support: 17
+
+Neutral:
+  Precision: 0.500
+  Recall: 0.333
+  F1: 0.400
+  Support: 3
+
+Negative:
+  Precision: 0.000
+  Recall: 0.000
+  F1: 0.000
+  Support: 0
+
+Macro Averages:
+  Precision: 0.474
+  Recall: 0.346
+  F1: 0.400
+================================================================================
+
+Model: smollm2:135m
+----------------------------------------
+
+Positive:
+  Precision: 0.850
+  Recall: 1.000
+  F1: 0.919
+  Support: 17
+
+Neutral:
+  Precision: 0.000
+  Recall: 0.000
+  F1: 0.000
+  Support: 3
+
+Negative:
+  Precision: 0.000
+  Recall: 0.000
+  F1: 0.000
+  Support: 0
+
+Macro Averages:
+  Precision: 0.283
+  Recall: 0.333
+  F1: 0.306
+================================================================================
+
+Model: smollm2:360m
+----------------------------------------
+
+Positive:
+  Precision: 0.850
+  Recall: 1.000
+  F1: 0.919
+  Support: 17
+
+Neutral:
+  Precision: 0.000
+  Recall: 0.000
+  F1: 0.000
+  Support: 3
+
+Negative:
+  Precision: 0.000
+  Recall: 0.000
+  F1: 0.000
+  Support: 0
+
+Macro Averages:
+  Precision: 0.283
+  Recall: 0.333
+  F1: 0.306
+================================================================================
+
+Model: smollm2:1.7b
+----------------------------------------
+
+Positive:
+  Precision: 0.909
+  Recall: 0.588
+  F1: 0.714
+  Support: 17
+
+Neutral:
+  Precision: 0.000
+  Recall: 0.000
+  F1: 0.000
+  Support: 3
+
+Negative:
+  Precision: 0.000
+  Recall: 0.000
+  F1: 0.000
+  Support: 0
+
+Macro Averages:
+  Precision: 0.303
+  Recall: 0.196
+  F1: 0.238
+================================================================================
